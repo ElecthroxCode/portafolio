@@ -1,0 +1,27 @@
+@import 'src/assets/styles/colors';
+@import 'src/assets/styles/letter_styles.scss';
+@import 'src/assets/styles/media_queries';
+
+section{ background-color: $primary-color; height: auto;  padding: 0px 60px; padding-bottom: 60px; display: grid; align-items: center;
+    h1{color: white;}
+    h2{color: white; font-weight: bold;}
+    h3{color: white; font-weight: bold;}
+     p{font-size: 1.2rem; color: white;}
+     hr{
+        width: 5%;
+     }
+     .container-certificate{ display: flex; justify-content: space-between;
+      ul{ display: grid; gap: 14px; list-style-type: none;
+     
+         a{text-decoration:  none; color: white; font-size: 1.2rem;
+             span{padding-left: 20px;color: rgb(182, 182, 254);  font-size: 0.8rem; font-weight: bold; letter-spacing: .1rem;}
+       
+     }
+         
+      }
+      .icon-certificate{background-image: url("../../assets/img/Icon/certificado.png"); background-repeat: no-repeat; background-position: center;
+           background-size: cover; width: 300px;} height: 300px; margin-left: 10px;
+     }
+    
+
+}

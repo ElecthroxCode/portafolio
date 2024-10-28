@@ -1,0 +1,15 @@
+@import 'src/assets/styles/colors';
+@import 'src/assets/styles/letter_styles';
+@import 'src/assets/styles/media_queries';
+
+section{background-color: $primary-color; min-height: 30vw; height: auto; color: white; padding: 0px 60px; display: grid; align-items: center;
+    
+    hr{width: 5%;}
+    div{
+        .container-skills{display: flex; gap: 40px; align-items: center;
+        img{transition: .5s;}
+         img:hover{ transform: scale(1.1);}
+        }
+    }
+}
+

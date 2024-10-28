@@ -1,0 +1,21 @@
+@import '../../assets/styles/colors.scss';
+@import 'src/assets/styles/letter_styles.scss';
+@import 'src/assets/styles/media_queries';
+
+section{min-height: 80vw; height: auto; background-color: $second-color; padding: 0px 60px; display: grid; align-items: center;
+    h1{color: white;}
+   hr{width: 5%;}
+    .card {
+        max-width: 400px;
+        .header-card{margin-bottom: 4px;}
+        .img-projects{
+            
+            height: 500px;
+            object-fit: contain;
+        }
+        .content-card{padding-top: 6px; padding-bottom: 4px; span{font-weight: bold;} } 
+      }
+    .container-cards{display: grid;  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ajusta el tamaño mínimo */
+        gap: 20px; /* Espacio entre tarjetas */
+    }
+}

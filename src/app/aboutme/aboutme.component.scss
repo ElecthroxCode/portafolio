@@ -1,0 +1,15 @@
+@import 'src/assets/styles/colors';
+@import 'src/assets/styles/letter_styles';
+@import 'src/assets/styles/media_queries';
+
+section{background-color: $primary-color; color: white; padding-left: 60px; min-height: 40vw; display: grid; align-items: center;
+.content{min-width: 60vw; width: auto;
+    p{font-size: 1.1rem;}}
+}
+.networks{display: flex;
+    gap: 14px; margin-top: 40px;
+    div{ border: 1px solid transparent;width: 80px; height: 26px; border-radius: 20px; 
+        
+    a{display: flex; justify-content: center; align-items: center;  text-decoration: none; color: white; margin-right: 26px; margin: 0px; gap: 6px}
+    }
+}

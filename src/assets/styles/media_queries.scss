@@ -1,0 +1,83 @@
+
+//desktop
+@media screen and (min-width: 1300px) {
+    .section-aboutme{
+        .content{max-width: 60vw;}
+    }
+    .section-projects{
+        min-height: 76vw;
+        .container-cards{display: grid;  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ajusta el tamaño mínimo */
+            gap: 20px; /* Espacio entre tarjetas */
+        }
+    }
+    .section-education{
+        min-height: 68vw;
+    }
+   
+}
+@media screen and (width <= 1024px ) {
+    .section-aboutme{height: 62vw;}
+    .section-projects{padding-top: 90px; padding-bottom: 90px;}
+    .section-skills{ height: 38vw;}
+    
+}
+
+
+//tablet
+@media screen and (768px <= width <= 1023px) {
+    .hero-toolbar{height: 70vw;}
+   .section-education{min-height: 100vw; padding-bottom: 60px;}
+}
+
+//mobile
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .hero-toolbar{
+        height: 640px;
+        .toolbar{
+            height: auto;
+            position: static;
+            .container-links{flex-direction: column; align-items: center; padding: 10px 0px;}
+        }
+        .container-perfil{
+            padding-top: 80px;
+            .container-name-perfil{
+                h1{font-size: 2.5rem;}
+                span{font-size: 1.1rem;}
+            }
+        }
+    }
+
+    .section-aboutme {
+        padding-left: 8px;
+        padding-right: 8px;
+        height: auto;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        .content{
+            p{text-align: center;}
+        }
+    }
+    .section-projects {
+        padding-left: 8px;
+        padding-right: 8px;
+       height: auto;
+       
+    }
+    .section-skills {
+        padding-left: 8px;
+        padding-right: 8px;
+        height: auto;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        .container-skills{flex-direction:column}
+    }
+    .section-education {
+        
+        .container-certificate{.icon-certificate{ display: none;}}
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-bottom: 50px;
+    }
+}
+
+
